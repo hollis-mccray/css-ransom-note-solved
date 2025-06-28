@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap");
 
 * {
   padding: 0;
@@ -59,7 +62,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +71,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,7 +80,7 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
@@ -301,4 +304,71 @@ body {
 .exclamation-mark {
 }
 .question-mark {
+}
+
+.piazzola {
+  font-family: "Piazzolla", sans-serif;
+  color: #3366ff;
+}
+
+.ceviche-one {
+  font-family: "Ceviche One", fantasy;
+  color: rgb(51, 204, 204) p;
+}
+
+.raleway-dots {
+  font-family: "Raleway Dots", sans-serif;
+  color: rgb(0, 0, 102);
+}
+
+.newsletter-headline {
+  font-family: "Bungee Inline", fantasy;
+  color: #3366ff;
+  text-decoration: #3366ff, overline;
+}
+
+.yatra-one {
+  font-family: "Yatra One", fantasy;
+  color: #9933ff;
+}
+
+.amiko-body {
+  font-family: "Amiko", sans-serif;
+  color: rgb(0, 102, 0);
+}
+
+.redacted {
+  text-transform: lowercase;
+  text-decoration: #660033 line-through underline overline;
+  font-weight: 400;
+  color: black;
+}
+
+.shouty {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.overexcited {
+  font-style: oblique;
+  font-size: 30px;
+}
+
+.emphatic {
+  font-weight: 700;
+}
+
+.fine-print {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.shouty,
+.fine-print {
+  text-decoration: rgb(0, 0, 102) underline;
+}
+
+.emphatic,
+.shouty {
+  text-transform: capitalize;
 }
